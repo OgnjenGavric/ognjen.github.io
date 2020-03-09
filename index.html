@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ognjen Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with my own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html">&lt;devognjen&#47;&gt;</a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Ognjen Gavric</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <img src="img/ognjen.png" alt="a picture of Ognjen Gavric" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design</h3>
+                    <p>I'm a Front-end Developer who likes to build component websites and websites.
+                        In making my own projects, I follow a pre-made activity plan using Trello cards.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Development</h3>
+                    <p>I like to fully control the code and therefore prefer to use basic CSS code for less complex projects.
+                        I recently switched to the SASS preprocessor lets you add super functionality to classic CSS.
+                        I can read and understand almost any code base in CSS and am capable of debugging CSS with Chrome Developer Tools.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>WordPress</h3>
+                    <p>I build websites of all kinds from scratch or using web frameworks (eg Bootstrap, Flexbox Grid ...) or CMSs (eg WordPress).</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Designer & developer from Banjaluka</p>
+           
+           <div class="about-me__body">
+               <p>I'm a Front-end Developer who likes to build component websites and websites.</p>
+           </div>
+           
+           <img src="img/Ognjen.jpg" alt="Ognjen on the bridge in BG" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/freejack.me.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item-2.html" class="portfolio__item">
+                    <img src="img/starprofiles.eu.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-item-3.html" class="portfolio__item">
+                    <img src="img/freeJackSmartHome.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="portfolio-item-4.html" class="portfolio__item">
+                    <img src="img/gcerti.eu.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="portfolio-item-5.html" class="portfolio__item">
+                    <img src="img/krcmazdravilav.info.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="portfolio-item-6.html" class="portfolio__item">
+                    <img src="img/skolarukometabl.ba.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+                <a href="portfolio-item-7.html" class="portfolio__item">
+                    <img src="img/petricevacsnsd.com.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 08 -->
+                <a href="portfolio-item-8.html" class="portfolio__item">
+                    <img src="img/uizznr.com.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 09 -->
+                <a href="portfolio-item-9.html" class="portfolio__item">
+                    <img src="img/ljekovitobiljeteodul.com.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 10 -->
+                <a href="portfolio-item-10.html" class="portfolio__item">
+                    <img src="img/lignokomerc.com.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:ognjen.gavric@gmail.com" class="footer__link">ognjen.gavric@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/OgnjenGavric" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/ognjen-gavric-3a93886b/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/ognjenolja.gavric" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/gavrico/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
